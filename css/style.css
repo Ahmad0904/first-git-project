@@ -6,7 +6,10 @@
     scroll-behavior: smooth;
     list-style: none;
 }
-
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
 .content-box-lg{
     padding: 180px 0;
 }
@@ -197,3 +200,24 @@
 }
 
 
+#posts{
+    background-color: #222222;
+}
+#posts span{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+span{
+    color: #b8b8b8;
+}
+#posts h2{
+    font-size: 3rem;
+    color: #ff8b00;
+}
+a {
+    color: #ff8b00;
+    text-decoration: none;
+    background-color: transparent;
+}
